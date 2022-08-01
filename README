@@ -1,0 +1,44 @@
+/*
+         PROGRAMA Descriptivo
+*******************************************
+          FLOODER DE TCP SYN
+          ******************
+                flooder.c
+                **********
+                flooder.h
+ ---------------------------------               
+ Flooder.c deberá estar, bajo linux,
+ en el mismo directorio que flooder.h
+ **************************************
+Ejecucuión bajo consola de linux.
+          EJECUTAR COMO ROOT.
+#sudo ./flooder www.mipaginaprueba.com
+#sudo ./flooder IP
+***************************************
+El envío syn utiliza para iniciar
+y establecer y sincronizar una conexión.
+También le ayuda a coordinar números de
+secuencia entre dos dispositivos.
+*****************************************
+Este programa se publica solamente a modo
+educativo, para aprender el manejo de
+de RAW SOCKETS bajo programación en Ansi. C.
+Utilizar como prueba bajo consola de Linux,
+Muy útil para ejecutar conjuntamente con
+Wireshark, y analizar los paquetes de envio a
+nivel de enseñanza, modificando parámetros,
+y comprobando después los cambios al ser editados los paquetes
+con Wireshark.
+****************ENVIO DE TCP SYN************************
+++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++--LENGUAJE ANSIC -- ++++++++
+Modificado la version original -(Francis Lata and Devin Rolfe)
+con nueva estructura , con el fin de que el programa sea más
+didactico.
+*******************************************
+Cuestiones o dudas a HILARIO: idusdruida51@gmail.com
+Realizado en plataforma LINUX Ubuntu 20.04.4 LTS.
+Bajo el standard ANSI C.-C-11
+Usado el IDE Sublime Text.
+Compilación:  gcc flooder.c -o flooder
+***************************************************
