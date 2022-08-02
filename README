@@ -12,6 +12,8 @@
  **************************************
 Ejecucuión bajo consola de linux.
           EJECUTAR COMO ROOT.
+          Ejemplo.
+          
 #sudo ./flooder www.mipaginaprueba.com
 #sudo ./flooder IP
 ***************************************
